@@ -41,7 +41,7 @@
     </dependencies>
 
     <build>
-        <finalName>imyeomsu-lck-common-utils</finalName>
+        <!--<finalName>imyeomsu-lck-common-utils</finalName>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
