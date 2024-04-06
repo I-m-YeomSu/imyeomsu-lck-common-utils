@@ -1,4 +1,4 @@
-package imyeomsu.common_utils.code;
+package imyeomsu.lck.common_utils.code;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

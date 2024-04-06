@@ -1,4 +1,4 @@
-package imyeomsu.common_utils.dto;
+package imyeomsu.lck.common_utils.dto;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
