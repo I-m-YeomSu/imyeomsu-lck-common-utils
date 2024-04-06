@@ -1,6 +1,6 @@
 package imyeomsu.lck.common_utils.exception;
 
-import common_utils.common.code.ErrorCode;
+import imyeomsu.lck.common_utils.code.ErrorCode;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
