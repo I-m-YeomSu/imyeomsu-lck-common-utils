@@ -1,4 +1,4 @@
-package imyeomsu.exception;
+package imyeomsu.common_utils.exception;
 
 import common_utils.common.code.ErrorCode;
 import lombok.Getter;
