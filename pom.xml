@@ -5,13 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>imyeomsu</groupId>
-    <artifactId>common-utils</artifactId>
+    <artifactId>common_utils</artifactId>
     <version>0.0.4</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <JAVA_17_HOME>/Library/Java/JavaVirtualMachines/jdk-17.0.6.jdk</JAVA_17_HOME>
     </properties>
 
 
@@ -57,6 +58,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.9.0</version>
                 <configuration>
+                    <executable>${JAVA_17_HOME}/Contents/Home/bin/javac</executable>
                     <compilerVersion>17</compilerVersion>
                 </configuration>
             </plugin>
