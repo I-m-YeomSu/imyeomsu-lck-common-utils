@@ -7,7 +7,7 @@
     <groupId>imyeomsu</groupId>
     <artifactId>common-utils</artifactId>
     <version>0.0.1</version>
-    
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -40,6 +40,7 @@
     </dependencies>
 
     <build>
+        <finalName>imyeomsu-lck-common-utils</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
