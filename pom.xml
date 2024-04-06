@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>imyeomsu.lck.common_utils</groupId>
-    <artifactId>imyeomsu-lck-common-utils</artifactId>
+    <artifactId>common-utils</artifactId>
     <version>0.0.4</version>
 
     <properties>
