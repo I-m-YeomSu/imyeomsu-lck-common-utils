@@ -13,7 +13,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 @Component
 public class RequestAdvisor {
 
-    @Around("execution(* imyeom_lck..*Controller.*(..))")
+    @Around("execution(* imyeom_lck..*Controller.*(..))  && @annotation(org.springframework.web.bind.annotation.RestController)")
     public Object requestLogging(ProceedingJoinPoint pjp) throws Throwable {
 
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
